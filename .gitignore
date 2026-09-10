@@ -1,1 +1,18 @@
-*.DS_Store*
+# KiCad local project state
+*.kicad_prl
+
+# KiCad lock files
+~*.lck
+
+# KiCad autosave
+_autosave-*
+
+# KiCad automatic backup directories
+*-backups/
+
+# Generic backup files
+*.bak
+
+# OS junk
+.DS_Store
+Thumbs.db
