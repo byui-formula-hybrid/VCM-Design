@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "09c8e602-c08f-4325-be1a-b168148f1bc2")
+	(paper "A4")
+	(title_block
+		(title "VCM Power Board")
+		(rev "0.1")
+		(company "BYU-I Formula Hybrid Racing")
+	)
+	(lib_symbols)
+)

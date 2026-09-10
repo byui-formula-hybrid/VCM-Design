@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "-"
+      "sch_revision": "0.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -661,13 +661,33 @@
         "uuid": "b6ab4e19-e461-4e82-a37e-ce5c95a60acf"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR1",
     "variants": []
   },
   "sheets": [
     [
       "b6ab4e19-e461-4e82-a37e-ce5c95a60acf",
       "VCM_Power"
+    ],
+    [
+      "6c68973c-8280-4f64-bd9c-465b8a6f44ba",
+      "Power and Input Protection"
+    ],
+    [
+      "dc2e140b-b248-4cfd-82a3-8fa5ad6f590c",
+      "5V Buck Converter"
+    ],
+    [
+      "eb8d5c4f-5c8d-433a-8d1b-6e03f2c06bdd",
+      "STM32 3.3 V Supply"
+    ],
+    [
+      "a9a30a81-6ee2-48e1-95c5-a840cc8bb6c2",
+      "Display 3.3V Supply"
+    ],
+    [
+      "0a19e4fb-a942-4ba5-8746-7731a60ba666",
+      "Board Connectors and Power Distribution"
     ]
   ],
   "text_variables": {

@@ -6,10 +6,290 @@
 	(paper "A4")
 	(title_block
 		(title "VCM Power Board")
-		(rev "-")
+		(rev "0.1")
 		(company "BYU-I Formula Hybrid Racing")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 66.04 41.91) (xy 78.74 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b639d299-c99e-4c97-9879-4ef00c22cb2e")
+	)
+	(sheet
+		(at 54.61 138.43)
+		(size 36.83 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0a19e4fb-a942-4ba5-8746-7731a60ba666")
+		(property "Sheetname" "Board Connectors and Power Distribution"
+			(at 54.61 137.7184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors_and_dist.kicad_sch"
+			(at 54.61 159.3346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "VCM_Power"
+				(path "/b6ab4e19-e461-4e82-a37e-ce5c95a60acf"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 38.1)
+		(size 30.48 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6c68973c-8280-4f64-bd9c-465b8a6f44ba")
+		(property "Sheetname" "Power and Input Protection"
+			(at 35.56 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_input_protection.kicad_sch"
+			(at 35.56 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VBAT_RAW" input
+			(at 35.56 41.91 180)
+			(uuid "dd4f0fc2-e516-4447-81ae-8d7be0124fb9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBAT_PROTECTED" output
+			(at 66.04 41.91 0)
+			(uuid "018a94b9-4a90-470b-8342-7bc93eee50cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "VCM_Power"
+				(path "/b6ab4e19-e461-4e82-a37e-ce5c95a60acf"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.46 90.17)
+		(size 34.29 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a9a30a81-6ee2-48e1-95c5-a840cc8bb6c2")
+		(property "Sheetname" "Display 3.3V Supply"
+			(at 124.46 89.4584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "display_supply.kicad_sch"
+			(at 124.46 113.6146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "VCM_Power"
+				(path "/b6ab4e19-e461-4e82-a37e-ce5c95a60acf"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 78.74 38.1)
+		(size 33.02 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "dc2e140b-b248-4cfd-82a3-8fa5ad6f590c")
+		(property "Sheetname" "5V Buck Converter"
+			(at 78.74 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_5v_buck.kicad_sch"
+			(at 78.74 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VBAT_PROTECTED" input
+			(at 78.74 41.91 180)
+			(uuid "c9aa5381-c0fc-47f9-ae84-323394be6364")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+5V" output
+			(at 111.76 43.18 0)
+			(uuid "2213d934-b2c3-4d2d-bc00-e17790362d94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "VCM_Power"
+				(path "/b6ab4e19-e461-4e82-a37e-ce5c95a60acf"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 53.34 88.9)
+		(size 38.1 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "eb8d5c4f-5c8d-433a-8d1b-6e03f2c06bdd")
+		(property "Sheetname" "STM32 3.3 V Supply"
+			(at 53.34 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm32_supply.kicad_sch"
+			(at 53.34 116.1546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "VCM_Power"
+				(path "/b6ab4e19-e461-4e82-a37e-ce5c95a60acf"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

@@ -1,0 +1,35 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "b3b19968-ad46-4e94-9dec-b7eca868ed92")
+	(paper "A4")
+	(title_block
+		(title "VCM Power Board")
+		(rev "0.1")
+		(company "BYU-I Formula Hybrid Racing")
+	)
+	(lib_symbols)
+	(hierarchical_label "VBAT_PROTECTED"
+		(shape input)
+		(at 48.26 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "257c7fdd-66b4-4718-b4c2-ba441ca18670")
+	)
+	(hierarchical_label "+5V"
+		(shape output)
+		(at 228.6 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1108268-f8b7-470d-9e56-78ded87f8b3e")
+	)
+)
