@@ -1,0 +1,123 @@
+(kicad_pcb
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(title_block
+		(title "ENTER PCB TITLE")
+		(rev "-")
+		(company "BYU-I Formula Hybrid Racing")
+	)
+	(layers
+		(0 "F.Cu" signal)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+	)
+	(setup
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(tenting
+			(front yes)
+			(back yes)
+		)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(capping no)
+		(filling no)
+		(pcbplotparams
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12)
+			(dashed_line_gap_ratio 3)
+			(svgprecision 4)
+			(plotframeref no)
+			(mode 1)
+			(useauxorigin no)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plot_black_and_white yes)
+			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 1)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(property "CHECKED_BY" "NOT CHECKED")
+	(property "DESIGNER" "ENTER DESIGNER")
+	(property "DOCUMENT_NUMBER" "UNASSIGNED")
+	(property "STATUS" "DRAFT")
+	(property "VEHICLE" "UNASSIGNED")
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "FHR_Drawing_Sheet.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WDeCqUYADbkciHgWD3QESom2NkmuBfGUTIFVORxYdIbSRrBozmDGUZGTAhnAGQAawBkxq6n
+				tX7nXi8t6/PokR3MfNy972+0O+ijOa1P6g/3xq57smi4ddIH9VCbMqlFw531c0qX/ZR7AQAICEak
+				nks6abU6S4e5E0fW8909nsn8MWS11stS++TWJc+lAiAgKEWmLvRALSoEXEPr8Eaj2VSEZ+TuaZxz
+				FM+dzOCjPLqXpNC1Xxsoe59+30frVQB0cnvqX/vlHlnV+n7K/euXXtc+vagTB0ndvTzKnGeSb7CL
+				T59aInCL32ex6/4Z1D8kSZt7b30n8zhu0L79MHxDfjtsOg6FhGtgOIwlmuyaWKVhwZQNoiGgFr2u
+				XzEp3MZxtob6B4jVoOcM0ljfvZFvz/M88jDXZvP6K8tgTAMTivt7zG4cnCnlTJZZP6kTe8tl02Qw
+				p9Maj22iItx5n9ZK6WIm/mJzQVc4AYHBZjPxi4xOTHlsEsyxlt55FdjMFItZrcJi8z6WUEwsSyTs
+				ZS9LZNNgjfzoMmt20XF0Gp48sOSBcnyYRWAGPWoigx2VjaXjLLiyeVy0bXlwa/Symg3X4FCkNxr3
+				g9oPqUEv86HmH0rynkgaA4CLoPFAhhgiEpEkSQodYESk5Kq2ARCJYDnS5rjgYDU8mV+CDCC1VwnA
+				Cwwly7BEunvtKba8jQdXqEU57bxYI+N3omDPg/VMfp7s2/Gxgd5mbIzRzMtN4C4IOo1yswFZZhBK
+				aI4Hu5kH0BwTsi0PhXQBZjA9P3VCiVq5Xl2jXwFSgc/Bmwu8aJ6y6rkM8hwCfDAIMysWMgKWdWC3
+				JsnEosgNCeRgPi/pijWLaMkYczigJMrQKES8TURcC+qswwcKbZBMignNc+bvfaQegjBIQ0z80VKS
+				ZieXPeU+ynWAxhqKw4Eo3SH1j1Yl787ig9853L1aCyAJzBKtu+iNX+Yb1PNpFAeKhGpyOkBTlFcY
+				gwS56yB1SsPLouhh+mqwwOEDqje6pAOFF6mtJWRtRYid+BV7O70a1Ym7sFofUCwnUWMZ6UA6BqYK|
+			)
+			(checksum "8C9F659A3F2DBC7DB41FBC6D43B3D7D6")
+		)
+	)
+)
