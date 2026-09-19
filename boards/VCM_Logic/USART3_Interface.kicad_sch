@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "c85e477c-25ac-4f74-a056-420688e4adc9")
+	(paper "A4")
+	(title_block
+		(title "VCM Logic Board")
+		(rev "0.1")
+		(company "BYU-I Formula Hybrid Racing")
+	)
+	(lib_symbols)
+)

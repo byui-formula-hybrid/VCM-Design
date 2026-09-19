@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "-"
+      "sch_revision": "0.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -466,7 +466,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -661,19 +661,47 @@
         "uuid": "b6ab4e19-e461-4e82-a37e-ce5c95a60acf"
       }
     ],
-    "used_designators": "U1",
+    "used_designators": "U1,#PWR1-13,C1-11",
     "variants": []
   },
   "sheets": [
     [
       "b6ab4e19-e461-4e82-a37e-ce5c95a60acf",
       "VCM_Logic"
+    ],
+    [
+      "91c4ad08-f45f-400b-8f14-8b87fd2fa710",
+      "STM32F767ZITx Core"
+    ],
+    [
+      "b8f659ed-4e58-4f77-a89f-8b821d645ecb",
+      "CAN 1 - Primary"
+    ],
+    [
+      "aa66318a-4a2f-4ba0-9259-f8ea2425d5ec",
+      "CAN 2 - Standby"
+    ],
+    [
+      "a52d9b17-be25-458b-9ea9-f0bb8e0edd0c",
+      "USB Interface"
+    ],
+    [
+      "d0994953-dcba-43fb-8ce6-cd221b06d81d",
+      "USART3 Interface"
+    ],
+    [
+      "020c7219-3eb6-4225-9343-98078bf693f9",
+      "SWD Programming"
+    ],
+    [
+      "5d7c24a2-023a-49ec-a085-bbc7e221da67",
+      "Logic Board Power"
     ]
   ],
   "text_variables": {
     "CHECKED_BY": "NOT CHECKED",
     "DESIGNER": "Shaymon Madrid",
-    "DOCUMENT_NUMBER": "UNASSIGNED",
+    "DOCUMENT_NUMBER": "FHR-VCM-LOG-SCH-001",
     "STATUS": "DRAFT",
     "VEHICLE": "UNASSIGNED"
   },
