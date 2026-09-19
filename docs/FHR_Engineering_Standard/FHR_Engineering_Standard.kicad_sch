@@ -1,0 +1,197 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "e696667a-0baa-4923-9bbc-33e64e5f3709")
+	(paper "A4")
+	(title_block
+		(title "FHR Engineering Documentation Standard")
+		(date "2026-09-18")
+		(rev "0.1")
+		(company "BYU-Idaho Formula Hybrid Racing")
+		(comment 1 "Document No: FHR-STD-001")
+		(comment 2 "Status: Draft")
+		(comment 3 "Proposed Team Standard - not yet approved")
+		(comment 4 "Applies to drafts, drawings, diagrams, schematics, and related documents")
+	)
+	(lib_symbols)
+	(text "FHR ENGINEERING DOCUMENTATION STANDARD"
+		(exclude_from_sim no)
+		(at 45.974 15.748 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+			)
+		)
+		(uuid "da7ac658-2960-408e-88a3-ef3395d6566c")
+	)
+	(text_box "REVISION SYSTEM\n\n0.1 = Initial draft\n0.2 = Updated draft\n0.9 = Draft ready for approval\n1.0 = First approved version\n1.1 = Minor approved change\n2.0 = Major approved change\n\nRevision rules:\n\n- The document number identifies what the document is.\n- The revision identifies which version it is.\n- Normal saves do not require a revision change.\n- Meaningful content changes require a revision update.\n- A new revision should include a change description.\n- Approved documents should not be silently overwritten.\n- Earlier released revisions should remain available for reference.\n\nExample:\n\nFHR-VCM-LOG-SCH-001 Rev 0.2\nmeans the second development version of the VCM Logic Board schematic.\n\nFHR-VCM-LOG-SCH-001 Rev 1.0\nmeans the first approved version of that same schematic."
+		(exclude_from_sim no)
+		(at 13.97 87.176 0)
+		(size 78.74 55.064)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "0b1c3a73-798e-4d84-a908-b31a3ac0927e")
+	)
+	(text_box "REQUIRED DOCUMENT INFORMATION\n\nEach controlled document should include, when applicable:\n\n- Organization or team\n- Project name\n- Subsystem or board\n- Document title\n- Document number\n- Revision\n- Status\n- Date\n- Author or designer\n- Reviewer or checker\n- Approver\n- Sheet or page number\n- Change description\n\nDocuments may use different title-block layouts, but the identifying\ninformation should remain consistent."
+		(exclude_from_sim no)
+		(at 110.49 44.45 0)
+		(size 69.85 44.45)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "0bb66313-de95-4e80-aa93-f72841223f1a")
+	)
+	(text_box "\n\nPurpose:\nThis document proposes common conventions for naming, revising, reviewing,\nand identifying engineering documents created by the BYU-Idaho Formula\nHybrid Racing team.\n\nStatus:\nThis is a proposed standard and is not mandatory until reviewed and approved\nby the team. Currently is the standard for the VCM board."
+		(exclude_from_sim no)
+		(at 13.97 12.7 0)
+		(size 85.09 22.86)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.635)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left top)
+		)
+		(uuid "2e7c5eb4-9629-4d08-9cf5-e61412eaedf9")
+	)
+	(text_box "ABBREVIATIONS\n\nOrganization:\nFHR = Formula Hybrid Racing\n\nProject and subsystem codes:\nSYS  = Entire system\nLOG  = Logic subsystem or Logic Board\nPWR  = Power subsystem or Power Board\nMECH = Mechanical subsystem\nCTRL = Controls subsystem\nSENS = Sensors subsystem\n\nDocument type codes:\nSCH  = Schematic\nPCB  = Printed circuit board layout\nDIA  = Diagram\nDWG  = Engineering drawing\nBOM  = Bill of materials\nTST  = Test document\nREQ  = Requirements document\nICD  = Interface-control document\nSTD  = Standard\nREF  = Reference document\nASM  = Assembly document\n\nExample:\nFHR-VCM-LOG-SCH-001\n\nFHR  = Formula Hybrid Racing\nVCM  = Vehicle Control Module project\nLOG  = Logic Board\nSCH  = Schematic\n001  = First document in that category"
+		(exclude_from_sim no)
+		(at 215.9 12.7 0)
+		(size 68.58 71.4211)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "6efe163a-0acb-423d-8d44-ebdaae6069a0")
+	)
+	(text_box "DOCUMENT NUMBER FORMAT\n\nFHR-[PROJECT]-[SUBSYSTEM]-[DOCUMENT TYPE]-[NUMBER]\n\nExamples:\n\nFHR-VCM-LOG-SCH-001\nFHR-VCM-PWR-SCH-001\nFHR-VCM-LOG-PCB-001\nFHR-VCM-SYS-DIA-001\nFHR-VCM-LOG-TST-001\n\nPROJECT:\nIdentifies the project, such as VCM.\n\nSUBSYSTEM:\nIdentifies the relevant area, such as LOG, PWR, or MECH.\n\nDOCUMENT TYPE:\nIdentifies the document, such as SCH, PCB, DIA, or TST.\n\nNUMBER:\nA sequential number for documents of that type."
+		(exclude_from_sim no)
+		(at 13.97 36.83 0)
+		(size 78.74 49.53)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "929b449e-bac2-4e57-b6d4-924f34f3e489")
+	)
+	(text_box "SCOPE\n\nThis proposed standard may apply to:\n\n- Engineering drafts\n- Schematics\n- PCB layouts\n- Block diagrams\n- System diagrams\n- Mechanical drawings\n- Test documents\n- Bills of materials\n- Interface documents\n- Manufacturing documentation"
+		(exclude_from_sim no)
+		(at 110.49 12.6515 0)
+		(size 44.45 30.5285)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "beb35d85-132c-46a4-bbf6-21f4bb0c9c18")
+	)
+	(text_box "REVIEW AND APPROVAL PROCESS\n\n1. The author creates the document.\n2. The author checks it for obvious errors.\n3. The document is marked DRAFT.\n4. The document is submitted for review.\n5. Reviewers record questions, errors, and requested changes.\n6. The author updates the document.\n7. The team confirms that the changes are complete.\n8. The document is marked APPROVED or RELEASED.\n9. The approved revision is preserved.\n10. Later changes create a new revision.\n\nA document should not be marked APPROVED or RELEASED only because it\nlooks complete. The responsible reviewers must agree that it is ready\nfor its intended use."
+		(exclude_from_sim no)
+		(at 13.97 144.78 0)
+		(size 78.74 35.56)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d5efb417-4eeb-4729-a35b-5f907436817b")
+	)
+	(text_box "STATUS DEFINITIONS\n\nDRAFT:\nThe document is being developed and may contain incomplete information.\nIt is not approved for final use.\n\nIN REVIEW:\nThe document has been submitted for review.\nChanges may still be requested.\n\nRELEASED:\nThe document has been reviewed and approved for its intended use,\nsuch as design, testing, construction, or manufacturing.\n\nOBSOLETE:\nThe document has been replaced by a newer document or revision.\nIt should not be used as the current version.\n\nCurrent document status:\nDRAFT"
+		(exclude_from_sim no)
+		(at 110.49 90.17 0)
+		(size 69.85 45.72)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "ff0de476-31db-42f7-8975-a48362448694")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
